@@ -1,0 +1,36 @@
+ <html >
+<head>
+    <title>Space Exploration</title>
+    <style>
+        body {
+            background-color: #282c34; 
+        }
+        #intro {
+            font-size: 20px; /* ID selector to change font size */
+        }
+        .highlight {
+            border: 2px solid yellow; /* Class selector to add a border */
+        }
+    </style>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to the World of Space Exploration</h1>
+    <h2>Discovering the Unknown</h2>
+    <p id="intro">Space exploration is the use of astronomy and space technology to explore outer space. While the observation of objects in space, known as astronomy, pre-dates reliable recorded history, it was the development of large and relatively efficient rockets during the mid-20th century that allowed physical space exploration to become a reality.</p>
+    
+    <img class="highlight" src="https://example.com/space_image.jpg" alt="Space Exploration" width="400px">
+
+    <p>Learn more about <a href="https://en.wikipedia.org/wiki/Space_exploration" target="_blank">Space Exploration</a> on Wikipedia.</p>
+
+    <h3>Pick your favorite color:</h3>
+    <input type="radio"  name="color" value="Red">
+
+    <input type="radio" name="color" value="Green">
+
+    <input type="radio"name="color" value="Blue">
+
+
+    <button onclick="changeBackgroundColor('lightblue')">Change BG Color</button>
+</body>
+</html>                                                               
